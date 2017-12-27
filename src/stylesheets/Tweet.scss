@@ -1,0 +1,65 @@
+body {
+  font-size: 10px;
+  background: #F5F8FA;
+}
+.tweetList {
+  width: 500px;
+  margin: auto;
+}
+
+.tweet {
+  background: white;
+  border: 2px solid black;
+  margin: 2px;
+  padding: 10px;
+
+  .userPic {
+    height: 60px;
+  }
+  .userBar {
+    color: #AEB9C1;
+    display: inline;
+    margin-left: 10px;
+  }
+  .userName {
+    color: black;
+    margin-right: 10px;
+  }
+  .dot {
+    font-size: 4px;
+    line-height: 15px;
+    vertical-align: middle;
+    margin: 5px;
+  }
+  .internal_pic {
+    width: 430px;
+    padding: 10px 15px;
+    margin-left: 50px;
+  }
+  .text {
+    padding-left: 70px;
+    color: black;
+    margin-bottom: 0px;
+  }
+}
+
+.iconBar {
+  font-size: 10px;
+  padding-left: 75px;
+
+  .plainIcon {
+    color: #AEB9C1;
+    padding-right: 60px;
+  }
+  .favorite {
+    color: red;
+    padding-right: 60px;
+  }
+  .retweet {
+    color: green;
+    padding-right: 60px;
+  }
+  .number {
+    margin-left: 2px;
+  }
+}
